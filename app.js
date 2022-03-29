@@ -90,7 +90,7 @@ scrapeChannel('https://groww.in/markets/top-losers?index=GIDXNIFTY100')
 // }
 
 app.get('/', (req, res)=>{
-        res.send(stockApi)
+        res.json(stockApi)
 })
 
 
